@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #83a4d4, #b6fbff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .weather-app {
+    background: rgb(10, 10, 10);
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgb(248, 248, 248);
+    width: 300px;
+    text-align: center;
+  }
+  
+  .weather-header h1 {
+    font-size: 24px;
+    color: #d80e0e;
+  }
+  
+  .weather-header p {
+    color: #db0b0b;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+  }
+  
+  .weather-info h2 {
+    color: #444;
+  }
+  
+  .temperature {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #ff7e5f;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .details p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+  }
+
+  .weather-header input {
+    margin-top: 10px;
+    padding: 8px;
+    width: 80%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .weather-header button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #ff7e5f;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+.satellite-background {
+  background-image: url('9011110.jpg');
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  }
